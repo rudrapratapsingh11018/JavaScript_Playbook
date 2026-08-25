@@ -1,5 +1,8 @@
-const roll = 11018
-var name = "Rudra Pratap Singh" // prefer not to use var 
+//-----BASIC OF JAVASCRIPT--------
+
+
+// const roll = 11018
+// var name = "Rudra Pratap Singh" // prefer not to use var 
 // //reason : issue in block scope & function scope {}
 // // let Sport = "Cricket"
 // let category = "Batsman"
@@ -34,9 +37,10 @@ var name = "Rudra Pratap Singh" // prefer not to use var
 
 
 // console.log("2" > 1);// T auto conversion to int
+// console.log("02" > 1);// T
 // console.log("2">"1"); // T
-console.log ("2" == 2); 
-console.log ("2" === 2);
+// console.log ("2" == 2); //T  auto  convert
+// console.log ("2" === 2); //F triple = checks the Datatypes
 
 
 
