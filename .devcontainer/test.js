@@ -26,8 +26,24 @@ var name = "Rudra Pratap Singh" // prefer not to use var
 // │ 2       │ '21'   │
 // │ 3       │ '111'  │
 
-console.log(+true); // 1
-console.log(-true); // 1
+// console.log(+true); // 1
+// console.log(-true); // -1
 
-console.log(+" ");
-console.log(-" ");
+// console.log(+" "); //0
+// console.log(-" "); //0 empty 
+
+
+// console.log("2" > 1);// T auto conversion to int
+// console.log("2">"1"); // T
+console.log ("2" == 2); 
+console.log ("2" === 2);
+
+
+
+// console.log(null == 0); // F ,empty != 0
+// console.log(null >= 0); //  T 
+// console.log(null<= 0); // T 
+//  console.log(undefined == 0); // F 
+//  console.log(undefined >= 0); //  F 
+//  console.log(undefined<= 0); //F
+
