@@ -42,4 +42,26 @@ String = string
 function = object function 
 */
 
-console.log("4");
+//-------------------------------------------------------------------------------------
+// heap (non primitive -> orignal)   & stack(primitive -> COPY)
+// let rudra = "HOD"
+// let nameHOD = rudra 
+// nameHOD = "vishal"
+// console.log(rudra);
+// console.log(nameHOD);
+
+let user1 = {
+    email : " rudra.25bce@vit.ac.in",
+    Adress : "Delhi"
+}
+let user2 = {
+    email : " vishal.25bai@vit.ac.in",
+    Adress : "Hyderabad"
+}
+user1.email = "rudrapratapsingh.gmail.com"
+
+
+console.log(user1.email);
+console.log(user1.Adress);
+console.log(user2.email);
+console.log(user2.Adress);
