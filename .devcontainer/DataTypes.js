@@ -43,7 +43,7 @@ function = object function
 */
 
 //-------------------------------------------------------------------------------------
-// heap (non primitive -> orignal)   & stack(primitive -> COPY)
+// heap (non primitive -> orignal/reference)   & stack(primitive -> COPY)
 // let rudra = "HOD"
 // let nameHOD = rudra 
 // nameHOD = "vishal"
@@ -58,7 +58,7 @@ let user2 = {
     email : " vishal.25bai@vit.ac.in",
     Adress : "Hyderabad"
 }
-user1.email = "rudrapratapsingh.gmail.com"
+user1.email = "rudrapratapsingh.gmail.com" // Update
 
 
 console.log(user1.email);
