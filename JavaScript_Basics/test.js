@@ -1,0 +1,53 @@
+//-----BASIC OF JAVASCRIPT--------
+
+
+// const roll = 11018
+// var name = "Rudra Pratap Singh" // prefer not to use var 
+// //reason : issue in block scope & function scope {}
+// // let Sport = "Cricket"
+// let category = "Batsman"
+// console.log(roll)
+// console.table([name,Sport,category])
+
+"use strict"; // newer version of JS
+// alert (3+3) // we're using nodejs , not browser 
+// in developer console it pop's out 6
+
+ // console.log(typeof "Rudra ") // return the type 
+// console.log(typeof null) //object or ...
+// console.log(typeof undefined) // undefined 
+
+// let score = 33
+// let negScore = - score
+// console.log(negScore)
+
+// console.table([1+1,1+"1",1+1+"1","1"+1+1])
+// output: 
+// ├─────────┼────────┤
+// │ 0       │ 2      │
+// │ 1       │ '11'   │
+// │ 2       │ '21'   │
+// │ 3       │ '111'  │
+
+// console.log(+true); // 1
+// console.log(-true); // -1
+
+// console.log(+" "); //0
+// console.log(-" "); //0 empty 
+
+
+// console.log("2" > 1);// T auto conversion to int
+// console.log("02" > 1);// T
+// console.log("2">"1"); // T
+// console.log ("2" == 2); //T  auto  convert
+// console.log ("2" === 2); //F triple = checks the Datatypes
+
+
+
+// console.log(null == 0); // F ,empty != 0
+// console.log(null >= 0); //  T 
+// console.log(null<= 0); // T 
+//  console.log(undefined == 0); // F 
+//  console.log(undefined >= 0); //  F 
+//  console.log(undefined<= 0); //F
+
